@@ -1,38 +1,201 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  background-color: #181818;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  display: inline-block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.brand {
+  padding: 12px;
+  width: 160px;
+  background-color: #504b4b98;
+  border-radius: 2px;
+}
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  padding: 0 30px;
+}
+.fixedNav {
+  z-index: 999;
+  background-color: #5e585800;
+  backdrop-filter: blur(10px);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 1px 1px 10px 1px rgba(15, 15, 16, 0.893);
+}
+.logoImg {
+  display: flex;
+  align-items: center;
+}
+.emailBlock h3 {
+  font-size: 13px;
+  margin: 1px;
+}
+.emailBlock a {
+  margin: 0.5px;
+  font-size: 8px;
+  color: rgb(0, 255, 94);
+}
+.imgBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logout {
+  padding: 3px 2px 0.5px 7px;
+  border-radius: 3px;
+  background-color: #ea0101c7;
+  margin-left: 8px;
+}
+.mrb {
+  margin-top: 9px;
+  padding: 5px 8px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #292b29d6;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 5px;
+}
+.imgBlock img {
+  width: 58px;
+  border-radius: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+@media only screen and (max-width: 1000px){
+.brand {
+  padding: 10px;
+  width: 140px;
+}
+.imgBlock img {
+  width: 50px;
+}
+}
+@media only screen and (max-width: 700px){
+.brand {
+  padding: 8px;
+  width: 130px;
+}
+.mrb {
+  margin-top: 5px;
+  padding: 3px 6px;
+  margin-bottom: 8px;
+}
+.imgBlock img {
+  width: 48px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+}
+}
+@media only screen and (max-width: 570px){
+.brand {
+  padding: 7px;
+  width: 120px;
+}
+.imgBlock img {
+  width: 48px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+}
+.navbar {
+  padding: 0 20px;
+}
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 480px){
+.brand {
+  padding: 0px;
+  background:transparent;
+  width: 100px;
+}
+.imgBlock img {
+  width: 35px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+
+}
+.mrb {
+  margin-top: 7px;
+  padding: 0px 0px;
+  background-color: transparent;
+  margin-bottom: 5px;
+}
+.logout {
+  padding: 1px 1px 0px 5px;
+  border-radius: 3px;
+  background-color: #ea0101c7;
+  margin-left: 8px;
+}
+.emailBlock h3 {
+  font-size: 10px;
+  margin: 0px;
+}
+.emailBlock a {
+  margin: 0px;
+  font-size: 6px;
+}
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width: 378px){
+.brand {
+  width: 90px;
+}
+.imgBlock img {
+  width: 33px;
+  margin-right: 10px;
+}
+.mrb {
+  margin-top: 3px;
+  margin-bottom: 0;
+  padding: 5px;
+}
+.logout {
+  padding: 2px 0px 0px 2px;
+  border-radius: 0px;
+  background-color: transparent;
+  margin-left: 0px;
+  width: 30px;
+  margin-top: -3px;
+  background-color: #a30303;
+  border-radius: 3px;
+}
+.emailBlock h3 {
+  font-size: 10px;
+  margin: 0px;
+  margin-bottom: -5px;
+  display: none;
+}
+.emailBlock a {
+  margin: 0px;
+  font-size: 6px;
+  margin-top: -15px;
+  display: none;
+}
 }

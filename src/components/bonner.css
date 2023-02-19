@@ -1,0 +1,57 @@
+header {
+  height: 100vh;
+}
+.mainBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+background-color: transparent;
+  padding: 0 35px;
+}
+.bannerContent .bannertitle{
+  font-size: 60px;
+  color: #fff;
+}
+.buttons .btn{
+ padding: 15px 35px; 
+ background-color: #fff;
+ color: black;
+ font-weight: 600;
+ border: none;
+ font-size: 20px;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: all 0.4s linear;
+ margin-top: 15px;
+}
+.buttons .btn:nth-child(2){
+  background: #000;
+  color: #fff;
+  margin-left: 17px;
+}
+.buttons .btn:hover{
+  opacity: 0.8;
+  transform: translateY(-1.5px)
+}
+.buttons .btn:active{
+  opacity: 1;
+  transform: translateY(1.5px)
+}
+.moviedes{
+  width: 60%;
+  color: #fff;
+  margin-top: 15px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  background: #0505052b;
+  font-size: 17px;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1230px){
+  .mainBlock{
+    padding: 0 20px;
+  }
+}
+
+

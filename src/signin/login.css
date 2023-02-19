@@ -1,0 +1,47 @@
+.login {
+  text-align: center;
+  padding-top: 170px;
+  display: block;
+}
+.login img{
+  width: 350px;
+}
+.login a{
+  background-color: #fff;
+  color: #cd1820;
+  padding: 8px 45px;
+  margin-top: 40px;
+  font-size: 21px;
+  border-radius: 5px;
+font-weight: 500;
+transition: all 0.15s linear;
+}
+.login a:hover{
+  transform: translateY(-3px);
+  background-color: #ba8b8b;
+  color: #ff020f;
+}
+.login a:active{
+    transform: translateY(3px);
+      background-color: #fff;
+  color: #cd1820;
+}
+@media only screen and (max-width: 500px){
+
+  .login {
+  text-align: center;
+  padding-top: 120px;
+  display: block;
+}
+.login img{
+  width: 230px;
+}
+.login a{
+  background-color: #fff;
+  color: #cd1820;
+  padding: 7px 35px;
+  margin-top: 30px;
+  font-size: 19px;
+
+}
+}

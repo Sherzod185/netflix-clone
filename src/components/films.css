@@ -1,0 +1,190 @@
+.filmsCategory {
+  padding: 15px;
+  text-align: center;
+  max-width: 1530px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.filmsCategory h3{
+  font-size: 35px;
+}
+.films {
+  display: flex;
+  padding: 15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+}
+.film {
+  width: 100%;
+  object-fit: cover;
+  max-height: 150px;
+  width: 270px;
+
+  margin: 0 5px;
+  cursor: pointer;
+  margin-bottom: 45px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 8px rgba(198, 187, 187, 0.517);
+}
+.filmPosterLarge {
+  max-height: 280px;
+}
+.ytPlayer {
+  position: fixed;
+  left: 22%;
+  bottom: 0;
+}
+iframe {
+  width: 900px;
+}
+/* responsiv qismini hammasi shu yerda yozildi */
+@media only screen and (max-width: 1350px) {
+  .ytPlayer {
+    left: 20%;
+  }
+  iframe {
+    width: 800px;
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  .ytPlayer {
+    left: 15%;
+  }
+  iframe {
+    width: 750px;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .ytPlayer {
+    left: 10%;
+  }
+  iframe {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .ytPlayer {
+    left: 15%;
+  }
+  .bannerContent .bannertitle{
+  font-size: 48px;
+
+}
+
+.buttons .btn{
+ padding: 10px 30px; 
+ font-weight: 550;
+ font-size: 18px;
+ border-radius: 4px;
+ margin-top: 15px;
+}
+.moviedes{
+  width: 70%;
+  margin-top: 15px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+  iframe {
+    width: 500px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .ytPlayer {
+    left: 10%;
+  }
+  iframe {
+    width: 400px;
+    height: 200px;
+  }
+   .bannerContent .bannertitle{
+  font-size: 40px;
+
+}
+
+.buttons .btn{
+ padding: 10px 28px; 
+ font-weight: 500;
+ font-size: 17px;
+ border-radius: 4px;
+ margin-top: 15px;
+}
+.moviedes{
+  width: 74%;
+  margin-top: 15px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 450;
+}
+}
+
+
+@media only screen and (max-width: 450px) {
+  .ytPlayer {
+    left: 10%;
+  }
+  iframe {
+    width: 300px;
+    height: 200px;
+  }
+   .bannerContent .bannertitle{
+  font-size: 35px;
+
+}
+
+.buttons .btn{
+ padding: 10px 25px; 
+ font-weight: 500;
+ font-size: 15px;
+
+}
+.moviedes{
+  width: 80%;
+  margin-top: 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+}
+@media only screen and (max-width: 350px) {
+  .ytPlayer {
+    left: 5%;
+  }
+  .moviedes{
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+  iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .ytPlayer {
+    left: 3%;
+  }
+  iframe {
+    width: 280px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .ytPlayer {
+    left: 1%;
+  }
+  iframe {
+    width: 270px;
+    height: 190px;
+  }
+}
+
