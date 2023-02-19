@@ -12,7 +12,7 @@ const Login = ({ handel }) => {
     <div className="login">
       <img src={logo} alt="logo" loading="lazy" /> <br />
       <Link to="/main" onClick={() => handel()}>
-        ign in with Google
+        Sign in with Google
       </Link>
     </div>
   );
