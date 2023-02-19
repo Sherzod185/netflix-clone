@@ -12,7 +12,7 @@ const Login = ({ handel }) => {
     <div className="login">
       <img src={logo} alt="logo" loading="lazy" /> <br />
       <Link to="/main" onClick={() => handel()}>
-        Google width account
+        ign in with Google
       </Link>
     </div>
   );
