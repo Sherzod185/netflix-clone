@@ -38,22 +38,51 @@
 iframe {
   width: 900px;
 }
-/* responsiv qismini hammasi shu yerda yozildi */
-@media only screen and (max-width: 1350px) {
+/* responsiv qismini  shu yerda yozildi */
+@media only screen and (max-width: 2000px) {
   .ytPlayer {
-    left: 20%;
+    left: 12%;
   }
   iframe {
-    width: 800px;
+    width: 1300px;
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 1700px) {
+  .ytPlayer {
+    left: 8%;
+  }
+  iframe {
+    width: 1250px;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .ytPlayer {
+    left: 2%;
+  }
+  iframe {
+    width: 1300px;
+    height: 530px;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .ytPlayer {
+    left: 5%;
+  }
+  iframe {
+    width: 1200px;
+    height: 500px;
   }
 }
 
 @media only screen and (max-width: 1230px) {
   .ytPlayer {
-    left: 15%;
+    left: 5%;
   }
   iframe {
-    width: 750px;
+    width: 950px;
+    height: 400px;
   }
 }
 @media only screen and (max-width: 1030px) {
@@ -61,7 +90,7 @@ iframe {
     left: 10%;
   }
   iframe {
-    width: 700px;
+    width: 800px;
   }
 }
 @media only screen and (max-width: 910px) {
@@ -90,16 +119,16 @@ iframe {
 }
   iframe {
     width: 500px;
-    height: 250px;
+    height: 320px;
   }
 }
 @media only screen and (max-width: 690px) {
   .ytPlayer {
-    left: 10%;
+    left: 1%;
   }
   iframe {
-    width: 400px;
-    height: 200px;
+    width: 480px;
+    height: 320px;
   }
    .bannerContent .bannertitle{
   font-size: 40px;
@@ -129,8 +158,8 @@ iframe {
     left: 10%;
   }
   iframe {
-    width: 300px;
-    height: 200px;
+    width: 330px;
+    height: 320px;
   }
    .bannerContent .bannertitle{
   font-size: 35px;
@@ -165,8 +194,8 @@ iframe {
   font-weight: 500;
 }
   iframe {
-    width: 300px;
-    height: 200px;
+    width: 330px;
+    height: 300px;
   }
 }
 @media only screen and (max-width: 330px) {
@@ -174,17 +203,9 @@ iframe {
     left: 3%;
   }
   iframe {
-    width: 280px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
   }
 }
-@media only screen and (max-width: 330px) {
-  .ytPlayer {
-    left: 1%;
-  }
-  iframe {
-    width: 270px;
-    height: 190px;
-  }
-}
+
 

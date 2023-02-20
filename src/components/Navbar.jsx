@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import LogoutIcon from "@mui/icons-material/Logout";
+
 const Navbar = ({ user, login }) => {
   const [fixed, setFixed] = useState(null);
   useEffect(() => {
@@ -15,8 +16,11 @@ const Navbar = ({ user, login }) => {
       }
     });
   });
+
   return (
-    <div className={`navbar ${fixed && "fixedNav"}`}>
+    <div
+      className={`navbar ${fixed && "fixedNav"}`}
+    >
       <Link className="brand" to="/main">
         <img src={logo} alt="logo" />
       </Link>

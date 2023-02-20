@@ -2,6 +2,7 @@
   text-align: center;
   padding-top: 170px;
   display: block;
+  height: 100vh;
 }
 .login img{
   width: 350px;
@@ -30,18 +31,18 @@ transition: all 0.15s linear;
 
   .login {
   text-align: center;
-  padding-top: 120px;
+  padding-top: 180px;
   display: block;
 }
 .login img{
-  width: 230px;
+  width: 240px;
 }
 .login a{
   background-color: #fff;
   color: #cd1820;
-  padding: 7px 35px;
+  padding: 8px 37px;
   margin-top: 30px;
-  font-size: 19px;
+  font-size: 20px;
 
 }
 }
